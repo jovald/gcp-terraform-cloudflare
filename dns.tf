@@ -1,6 +1,5 @@
 provider "cloudflare" {
   version = "~> 2.0"
-  # email   = "pvpj017@gmail.com"
   api_token = var.cloud_flare_api_token
 }
 
