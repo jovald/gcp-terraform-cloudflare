@@ -1,6 +1,5 @@
 variable "project" {
   type    = string
-  default = "in3-test-2"
 }
 
 variable "region" {
@@ -14,7 +13,7 @@ variable "zone" {
 }
 
 variable "domain" {
-  default = "staches.org"
+  type = string
 }
 
 variable "network_name" {
