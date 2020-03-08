@@ -12,10 +12,6 @@ variable "zone" {
   default = "us-central1-a"
 }
 
-variable "domain" {
-  type = string
-}
-
 variable "network_name" {
   type    = string
   default = "default"

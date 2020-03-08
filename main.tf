@@ -17,8 +17,6 @@ resource "google_compute_instance" "webserver" {
     }
   }
 
-  hostname = "staches.org"
-
   metadata_startup_script = <<-EOF
               #!/bin/bash
               echo "Hello, World" > index.html
